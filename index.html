@@ -8,26 +8,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=hotel_class" />
     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" />
 </head>
 <body>
     <div class="main">
         <div class="navbar">
             <div class="logo">
-                <span class="material-symbols-outlined" style="font-size: 37px;">
-                    hotel_class
+                <span class="material-symbols-outlined">
+                    home
                     </span>
                 <h2>WizardZ</h2>
             </div>
             <div class="about_part">
                 <ul>
-                    <li>About us</li>
-                    <li>Services</li>
-                    <li>Use Causes</li>
-                    <li>Pricing</li>
-                    <li>Blog</li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Use Causes</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Blog</a></li>
                 </ul>
             </div>
-            <button>Request a quote</button>
+            <button class="button type1">
+                <span class="btn-txt">Request a quote</span>
+              </button>
+              
         </div>
         <div class="first_body">
             <div class="left">
@@ -35,7 +39,13 @@
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium rerum earum tempore magni sit harum! Fugiat perspiciatis eaque labore nisi ut nulla accusantium in, libero mollitia quibusdam ipsam adipisci voluptate?
                 </p>
-                <button>Book a Consultation</button>
+                <!-- From Uiverse.io by cssbuttons-io --> 
+<button class="learn-more">
+    <span class="circle" aria-hidden="true">
+    <span class="icon arrow"></span>
+    </span>
+    <span class="button-text">Book a Consultation</span>
+  </button>
             </div>
             <div class="right">
                 <img src="images/1.svg">
@@ -57,52 +67,53 @@
             <div class="new_box">
                 <div class="left">
                     <div>
-                        <span>Search engine</span>
-                        <span>Optimaization</span>
+                        <span style="background-color: #c4fa80; color: black; border-radius: 10px; padding: 5px; display: inline-block;">Search engine Optimaization</span>
+                        <span style="background-color: #c4fa80; color: black; border-radius: 10px; padding: 5px; display: inline-block;"></span>
                     </div>
-                    <label>
-                        <i class="fa-solid fa-arrow-right" style="border-radius: 50%; background-color: black; color: white; padding: 10px;"></i>
-                        Learn More
-                    </label>
+                    <button class="button type1">
+                        <span class="btn-txt">Learn more</span>
+                      </button>
+                      
                 </div>
                 <div class="right"><img src="images/box.jpg"></div>
             </div>
-            <div class="new_box" style="background-color: black; color: white;">
+            <div class="new_box" style="background-color: black; color: #c4fa80;">
                 <div class="left">
                     <div>
-                        <span style="background-color: white; color: black;">Pay per Click</span>
-                        <span style="background-color: white; color: black;">Advertising</span>
+                        <span style="background-color: #c4fa80; color: black; border-radius: 10px; padding: 5px; display: inline-block;">Pay per Click Advertising</span>
+                        <span style="background-color: #c4fa80; color: black; border-radius: 10px; padding: 5px; display: inline-block;"></span>
                     </div>
-                    <label>
-                        <i class="fa-solid fa-arrow-right" style="border-radius: 50%; background-color: white; color: black; padding: 10px;"></i>
-                        Learn More
-                    </label>
+                    <button class="button type1">
+                        <span class="btn-txt">Learn more</span>
+                      </button>
                 </div>
                 <div class="right"><img src="images/box1.jpg"></div>
             </div>
             <div class="new_box" style="background-color: black; color: white;">
                 <div class="left">
                     <div>
-                        <span style="background-color: white; color: black;">Social media</span>
-                        <span style="background-color: white; color: black;">Marketing</span>
+                        <span style="background-color: #c4fa80; color: black; border-radius: 10px;
+                        padding: 5px;
+                        display: inline-block;">Social media Marketing</span>
+                        <span style="background-color: #c4fa80; color: rgb(0, 0, 0); border-radius: 10px;
+                        padding: 5px;
+                        display: inline-block;"></span>
                     </div>
-                    <label>
-                        <i class="fa-solid fa-arrow-right" style="border-radius: 50%; background-color: white; color: black; padding: 10px;"></i>
-                        Learn More
-                    </label>
+                    <button class="button type1">
+                        <span class="btn-txt">Learn more</span>
+                      </button>
                 </div>
                 <div class="right"><img src="images/box4.jpg"></div>
             </div>
             <div class="new_box">
                 <div class="left">
                     <div>
-                        <span>Email</span><br>
-                        <span>Marketing</span>
+                        <span style="background-color: #c4fa80; color: black; border-radius: 10px; padding: 5px; display: inline-block;">Email Marketing</span>
+                        <span style="background-color: #c4fa80; color: black; border-radius: 10px; padding: 5px; display: inline-block;"></span>
                     </div>
-                    <label>
-                        <i class="fa-solid fa-arrow-right" style="border-radius: 50%; background-color: black; color: white; padding: 10px;"></i>
-                        Learn More
-                    </label>
+                    <button class="button type1">
+                        <span class="btn-txt">Learn more</span>
+                      </button>
                 </div>
                 <div class="right"><img src="images/box.jpg"></div>
             </div>
@@ -113,8 +124,11 @@
                     <h1>Let's Make think Happen</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laudantium exercitationem veniam voluptatibus velit iusto quis culpa molestiae. In laudantium quam sint ipsum rem odit voluptates odio molestias nam architecto?</p>
                 </label>
-                <button>Get your free Proposial</button>
+                
             </div>
+            <br><button class="button type1">
+                <span class="btn-txt">Learn more</span>
+              </button>
             <div class="right">
                 <img src="images/logo.png">
             </div>
@@ -127,24 +141,23 @@
             <div class="three_box">
                 <div class="box1">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam natus, cum, culpa repellendus minima, deserunt dolor perferendis sapiente expedita maiores omnis possimus veritatis nam</p>
-                    <label style="color: aquamarine;">
-                        Learn More
-                        <i class="fa-solid fa-arrow-right" style="border-radius: 50%; background-color: black; color: aquamarine; padding: 10px;"></i>
-                    </label>
+                    <button class="button type1">
+                        <span class="btn-txt">Learn more</span>
+                      </button>
                 </div>
                 <div class="box1">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam natus, cum, culpa repellendus minima, deserunt dolor perferendis sapiente expedita maiores omnis possimus veritatis nam</p>
-                    <label style="color: aquamarine;">
-                        Learn More
-                        <i class="fa-solid fa-arrow-right" style="border-radius: 50%; background-color: black; color: aquamarine; padding: 10px;"></i>
-                    </label>
+                    <button class="button type1">
+                        <span class="btn-txt">Learn more</span>
+                      </button>
                 </div>
                 <div class="box1" style="border: none;">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam natus, cum, culpa repellendus minima, deserunt dolor perferendis sapiente expedita maiores omnis possimus veritatis nam</p>
-                    <label style="color: aquamarine;">
-                        Learn More
-                        <i class="fa-solid fa-arrow-right" style="border-radius: 50%; background-color: black; color: aquamarine; padding: 10px;"></i>
-                    </label>
+                    <button class="button type1">
+                        <span class="btn-txt">Learn more</span>
+                      </button>
+                        
+                    
                 </div>
                 
             </div>
